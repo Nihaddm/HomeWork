@@ -87,6 +87,20 @@ nav {
     gap: 20px;
 }
 
+.image{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
 
 
 
