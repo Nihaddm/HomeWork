@@ -42,3 +42,27 @@ nav {
     gap: 40px;
 }
 
+
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.orta1 {
+    font-size: 80px;
+}
+.orta2{
+    font-size: 25px;
+}
+
+
+
+
