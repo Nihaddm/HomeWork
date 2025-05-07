@@ -1,0 +1,46 @@
+
+*{padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    height: 60px;
+}
+.icon{
+
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.icon img {
+    width: 150px;
+height: 20px;
+
+}
+.icon button{
+    background-color: #7AA93C;
+    padding: 12px 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+}
+.nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
