@@ -87,10 +87,29 @@ nav {
     gap: 20px;
 }
 
-.images{
+.Sekiller{
+    background-color: black;
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
 }
+
+.image{
+    background-color: black;
+    text-align: center;
+
+}
+
+.image img{
+    width: 85%;
+    padding: 10px;
+}
+
+.image h4{
+    color: white;
+    margin: 10px;
+}
+
 
 
 
