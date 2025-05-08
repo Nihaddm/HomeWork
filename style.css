@@ -78,7 +78,7 @@ nav {
 }
 
 .menu{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     color: white;
     height: 100px;
     display: flex;
@@ -88,16 +88,18 @@ nav {
 }
 
 .Sekiller{
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 20px;
+    
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .image{
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     text-align: center;
-
 }
 
 .image img{
@@ -107,7 +109,21 @@ nav {
 
 .image h4{
     color: white;
-    margin: 10px;
+    margin: 20px;
+}
+
+.button3place{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button3{
+    background-color: white;
+    color: rgb(14, 14, 14); 
+    padding: 20px 50px;
+    border: none;
+    border-radius: 3px;
+    
 }
 
 
