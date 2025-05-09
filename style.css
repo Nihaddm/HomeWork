@@ -178,7 +178,18 @@ nav {
 .main4{
     background-color: blueviolet;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 280px 280px 280px 280px 280px;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.main4 h3{
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+    background-color: rgba(255, 255, 255, .12);
+    border-radius: 8px
     
 }
 
