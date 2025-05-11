@@ -1,29 +1,33 @@
 const slider = document.getElementById("slider");
+
+// Mövcud slaydları klonlayıb sona əlavə edirik
+const slides = [...slider.children];
+slides.forEach(slide => {
+  const clone = slide.cloneNode(true);
+  slider.appendChild(clone);
+});
+
+// Mouse ilə sürüşdürmə
 let isDown = false;
 let startX;
 let scrollLeft;
 
 slider.addEventListener("mousedown", (e) => {
   isDown = true;
-  slider.classList.add("active");
-  startX = e.pageX - slider.offsetLeft;
+  startX = e.pageX;
   scrollLeft = slider.scrollLeft;
 });
-
-slider.addEventListener("mouseleave", () => {
-  isDown = false;
-  slider.classList.remove("active");
-});
-
-slider.addEventListener("mouseup", () => {
-  isDown = false;
-  slider.classList.remove("active");
-});
-
+slider.addEventListener("mouseup", () => isDown = false);
+slider.addEventListener("mouseleave", () => isDown = false);
 slider.addEventListener("mousemove", (e) => {
   if (!isDown) return;
   e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const walk = (x - startX) * 1.5;
-  slider.scrollLeft = scrollLeft - walk;
+  const x = e.pageX;
+  const walk = (startX - x);
+  slider.scrollLeft = scrollLeft + walk;
+
+  // Sonsuz dövr: sona çatanda başa qayıt
+  if (slider.scrollLeft >= slider.scrollWidth / 2) {
+    slider.scrollLeft = 0;
+  }
 });
