@@ -60,11 +60,10 @@ nav {
 
 .orta1 {
     font-size: 80px;
-    margin-top: 10px;
 }
 .orta2{
     font-size: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .button2{
@@ -80,7 +79,7 @@ nav {
 .menu{
     background-color: rgb(24, 24, 24);
     color: white;
-    height: 100px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,4 +320,13 @@ margin-bottom: 20px;
 
 .footer4 p{
     margin-bottom: 40px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(95, 95, 95);
+    font-size: 14px;
 }
