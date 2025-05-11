@@ -37,6 +37,7 @@ height: 20px;
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
+    color: #181d1f;
 }
 
 nav {
@@ -50,7 +51,6 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 25px;
     gap: 25px;
     margin-top: 50px;
     width: 100%;
@@ -60,10 +60,14 @@ nav {
 
 .orta1 {
     font-size: 80px;
+    color: #181d1f;
+    margin-top: 40px;
+    
 }
 .orta2{
     font-size: 25px;
     margin-bottom: 25px;
+    color: #6d7478;
 }
 
 .button2{
@@ -73,7 +77,7 @@ nav {
     border-radius: 3px;
     padding: 20px 50px;
     font-size: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .menu{
@@ -90,11 +94,13 @@ nav {
      background-color: #181d1f;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
     padding-top: 60px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 100px;
+    height: 480px;
+    overflow: hidden;
+    transition: 2s;
 }
 .pictures_button{
     background-color: #181d1f;
@@ -140,6 +146,7 @@ nav {
 
 .main1 p{
     margin-top: 10px;
+    color: #6d7478;
 }
 
 .main2{
@@ -158,6 +165,7 @@ nav {
 
 .text p{
     margin-top: 20px;
+    color: #6d7478;
 }
 
 .main3{
@@ -222,6 +230,7 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
+
 .recommend{
 background-color: white;
 display: flex;
@@ -233,8 +242,13 @@ padding-bottom: 100px;
 font-size: 20px;
 }
 
+.recommend h1{
+    color: #181d1f;
+}
+
 .recommend p{
     padding-top: 20px;
+    color: #6d7478;
 }
 
 
@@ -254,6 +268,7 @@ font-size: 20px;
     font-size: 20px;
     gap: 30px;
     padding: 140px;
+    overflow: hidden;
 }
 .customers_p{
     color: #6d7478;
@@ -261,9 +276,7 @@ font-size: 20px;
 
 .slider{
     display: flex;
-    gap: 40px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+    gap: 40px;            
     cursor: grab;
 
 }
@@ -284,6 +297,65 @@ font-size: 20px;
 }
 
 
+
+
+.frequently{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.basliq{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.basliq h1{
+    margin-bottom: 20px;
+}
+.basliq p{
+    color: #6d7478;
+}
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+.card{
+    width: 850px;
+}
+
+.sual{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.kecid{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cavab{
+    font-size: 20px;
+    color: #6d7478;
+}
+
+.questions{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #6d7478;
+    padding: 10px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -342,13 +414,13 @@ text-align: center;
 }
 .footer h3{
 color: #6d7478;
-font-size: 20px;
+font-size: 18px;
 margin-bottom: 40px;
 }
 
 .footer p{
 color: white;
-font-size: 17px;
+font-size: 16px;
 margin-bottom: 20px;
 }
 
